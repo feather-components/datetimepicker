@@ -1,0 +1,17 @@
+.ui3-datetimepicker .ui3-datepicker{
+    position: static;
+}
+
+.ui3-datetimepicker .ui3-timepicker{
+    position: absolute;
+    border: 0px;
+    bottom: 0px;
+}
+
+.ui3-datetimepicker .ui3-picker{
+    border: 0px;
+}
+
+.ui3-datetimepicker{
+    padding-bottom: 32px;
+}
