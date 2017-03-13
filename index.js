@@ -33,7 +33,7 @@ return Class.$factory('datetimepicker', Picker, {
             var date = self.$datepicker.getDate();
 
             self.trigger('confirm', [date + ' ' + time, date, time]);
-            self.$dom && self.$dom.val(date + ' ' + time);
+            $(options.dom).val(date + ' ' + time);
             self.close();
         });
 

@@ -1,5 +1,5 @@
 {
-  "name": "datepicker",
+  "name": "datetimepicker",
   "desc": "日历时间插件",
   "version": "1.0.0",
   "dependencies": {
